@@ -2,22 +2,22 @@
   background-color: #ffefe4;
   height: auto;
   width: 100%;
-
-}
-.AboutMain{
-  color: brown;
-  overflow: auto;
-  display: flex;
-  /* justify-content: space-between; */
-  padding-top: 50px;
   padding-bottom: 50px;
 }
-
-.Paragraph {
-  display: block;
-  text-align: center;
+.AboutMain{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .movingImg {
   max-height: 400px;
   width: auto;
+}
+.Paragraph{
+  text-align: center;
+  width: 400px;
+  color: brown;
+}
+.ParagAndPict{
+  display: flex;
+  justify-content: center;
 }
