@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
+import './styles/App.css';
 import Tiles from './tiles';
 import Nav from './nav';
-import Welcome from './welcome';
 import About from './about';
+import Portfolio from './portfolio';
 
 class App extends Component {
   render() {
@@ -12,14 +12,13 @@ class App extends Component {
         <nav className="Nav-bar f4">
           <Nav />
         </nav>
-        <div className='Welcome'>
-          <Welcome />
-        </div>
         <div className="About">
           <About />
         </div>
+        <div className="Portfolio">
+          <Portfolio />
+        </div>
         <p className="App-footer">
-          To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
     );

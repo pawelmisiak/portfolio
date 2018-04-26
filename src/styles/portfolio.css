@@ -1,0 +1,21 @@
+.Portfolio{
+  /* background-color: ; */
+  background: linear-gradient(#ffefe4, #b29a90);
+  height: auto;
+  min-height: 600px;
+  padding: 20px
+}
+
+.Gifs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px 20px;
+}
+
+.Gifs > img {
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  width: auto;
+}

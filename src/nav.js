@@ -1,11 +1,11 @@
 import React from 'react';
-import './nav.css';
+import './styles/nav.css';
 
 const Nav = () => {
   return(
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar navbar-expand navbar-dark">
       <div className="container">
-        <a className="navbar-brand" href="#page-top">Pawel Misiak</a>
+        <a className="navbar-brand " href="#page-top">Pawel Misiak</a>
           <ul className="navbar-nav text-uppercase">
             <li>
               <a className="nav-link" href="#about">About</a>
