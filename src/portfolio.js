@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/portfolio.css';
-
+import Tilt from 'react-tilt'
 
 const Portfolio = () => {
   const applications ={
@@ -11,9 +11,15 @@ const Portfolio = () => {
     <div className="PortfolioMain">
       <h3 className="h3 tc pa3">Portfolio</h3>
       <div className="Gifs">
-      <img src='https://media.giphy.com/media/8hZri2xwZzxDGZ8bBB/giphy.gif' className="shadow-1"/>
-      <img src='https://media.giphy.com/media/oHv9d1KM9sSLgKObDL/giphy.gif' className="shadow-1"/>
-      <img src='https://media.giphy.com/media/TIzgTYtyFmX1fJPObf/giphy.gif' className="shadow-1"/>
+      <Tilt className="Tilt shadow-1" options={{ max : 7, reverse: true }} >
+        <img src='https://media.giphy.com/media/8hZri2xwZzxDGZ8bBB/giphy.gif'/>
+      </Tilt>
+      <Tilt className="Tilt shadow-1" options={{ max : 7, reverse: true }} >
+        <img src='https://media.giphy.com/media/oHv9d1KM9sSLgKObDL/giphy.gif'/>
+      </Tilt>
+      <Tilt className="Tilt shadow-1" options={{ max : 7, reverse: true }} >
+        <img src='https://media.giphy.com/media/TIzgTYtyFmX1fJPObf/giphy.gif'/>
+      </Tilt>
     </div>
   </div>
   );
