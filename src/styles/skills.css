@@ -1,0 +1,19 @@
+.Skills{
+  /* background-color: ; */
+  background: linear-gradient(#b29a90, #ffefe4);
+  height: auto;
+  min-height: 600px;
+  padding: 20px
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  font-size: 6em;
+  list-style: none;
+}
+
+.icons > li {
+  padding: 2px;
+}

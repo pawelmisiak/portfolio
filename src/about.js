@@ -1,10 +1,18 @@
 import React from 'react';
 import './styles/about.css';
-
+// import Background from './pictures/background.jpg';
+//
+// const sectionStyle = {
+//   width: "100%",
+//   height: "auto",
+//   backgroundImage: `url(${Background})`,
+//   // padding: "1px",
+// }
 
 const About = () => {
   return (
     <div className="AboutMain">
+    {/* <div style={ sectionStyle } className="AboutMain"> */}
         <h3 className="h3 tc pa3 pb6">About</h3>
         <div className="ParagAndPict">
           <div className="Paragraph">

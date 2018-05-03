@@ -4,6 +4,7 @@ import Tiles from './tiles';
 import Nav from './nav';
 import About from './about';
 import Portfolio from './portfolio';
+import Skills from './skills';
 
 class App extends Component {
   render() {
@@ -17,6 +18,9 @@ class App extends Component {
         </div>
         <div className="Portfolio">
           <Portfolio />
+        </div>
+        <div className="Skills">
+          <Skills />
         </div>
         <p className="App-footer">
         </p>
