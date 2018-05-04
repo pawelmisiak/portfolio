@@ -8,7 +8,7 @@ const Portfolio = () => {
     roboFriends: 'https://robo-friend.herokuapp.com/'
   }
   return (
-    <div className="PortfolioMain">
+    <div >
       <h3 className="h3 tc pa3">Portfolio</h3>
       <div className="Gifs">
       <Tilt className="Tilt shadow-1" options={{ max : 7, reverse: true }} >

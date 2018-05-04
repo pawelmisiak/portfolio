@@ -6,14 +6,26 @@
   padding: 20px
 }
 
-.icons {
+.skills_container{
   display: flex;
-  justify-content: center;
-  width: 80%;
-  font-size: 6em;
-  list-style: none;
+  flex-direction: column;
 }
 
-.icons > li {
-  padding: 2px;
+.icons_list {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 80%;
+  list-style: none;
+  font-size: 1em;
+}
+
+.icons_list li {
+  text-align: center;
+}
+
+.icon {
+  padding: 10px;
+  font-size: 5em;
 }
