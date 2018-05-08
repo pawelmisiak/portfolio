@@ -5,6 +5,7 @@ import Nav from './nav';
 import About from './about';
 import Portfolio from './portfolio';
 import Skills from './skills';
+import Contact from './contact';
 
 class App extends Component {
   render() {
@@ -21,6 +22,9 @@ class App extends Component {
         </div>
         <div className="Skills">
           <Skills />
+        </div>
+        <div className="Contact">
+          <Contact />
         </div>
         <p className="App-footer">
         </p>
