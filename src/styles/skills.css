@@ -1,5 +1,4 @@
 .Skills{
-  /* background-color: ; */
   background: linear-gradient(#b29a90, #ffefe4);
   height: auto;
   min-height: 600px;
@@ -16,16 +15,17 @@
   justify-content: center;
   margin: auto;
   flex-wrap: wrap;
-  width: 80%;
+  width: 88%;
   list-style: none;
   font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .icons_list li {
   text-align: center;
+  padding: 2.5em;
 }
 
 .icon {
-  padding: 10px;
-  font-size: 5em;
+  font-size: 6em;
 }

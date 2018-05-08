@@ -27,7 +27,7 @@ const About = () => {
             </p>
           </div>
         <img
-          src="https://cdn-images-1.medium.com/max/1600/1*Ma-vB61c-MeBPbJXvUUpGw.gif" className="movingImg"/>
+          src="https://cdn-images-1.medium.com/max/1600/1*Ma-vB61c-MeBPbJXvUUpGw.gif" alt="" className="movingImg"/>
         </div>
     </div>
   );
