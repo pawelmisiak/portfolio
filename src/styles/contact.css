@@ -2,5 +2,19 @@
   background: linear-gradient(#cacaca, #9c9c9c);
   height: auto;
   min-height: 600px;
-  padding: 20px
+  padding: 20px;
+}
+
+.icons {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.icons li {
+  padding: 20px;
+}
+.icons li a {
+  text-decoration: none;
 }

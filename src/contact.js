@@ -6,11 +6,7 @@ const Contact = () => {
     <div>
       <h3 className="h3 tc pa3 pb6">Contact</h3>
       <p className="tc">Want to get in touch?</p>
-      {/* <h4 className="h4 tc pa1">
-        <i className="fas fa-envelope"> thepawelmisiak@gmail.com
-        </i>
-      </h4> */}
-      <ul>
+      <ul className="icons h1">
         <li>
           <a href="mailto:thepawelmisiak@gmail.com" className="fas fa-envelope"></a>
         </li>
@@ -18,13 +14,10 @@ const Contact = () => {
           <a href="http://github.com/pawelmisiak" className="fab fa-github"></a>
         </li>
         <li>
-
+          <a href="http://www.linkedin.com/in/pawel-misiak" className="fab fa-linkedin"></a>
         </li>
         <li>
-
-        </li>
-        <li>
-
+          <a href="./assets/Resume.pdf" className="fas fa-file"></a>
         </li>
       </ul>
     </div>
