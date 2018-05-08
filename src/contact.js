@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <div>
       <h3 className="h3 tc pa3 pb6">Contact</h3>
-      <p className="tc">Want to get in touch?</p>
       <ul className="icons h1">
         <li>
           <a href="mailto:thepawelmisiak@gmail.com" className="fas fa-envelope"></a>
