@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './styles/App.css';
-import Tiles from './tiles';
 import Nav from './nav';
 import About from './about';
 import Portfolio from './portfolio';
