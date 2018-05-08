@@ -2,12 +2,11 @@
   background: linear-gradient(#dcd0c8, #cacaca);
   height: auto;
   min-height: 600px;
-  padding: 20px
+  padding: 20px;
 }
 
 .skills_container{
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .icons_list {
@@ -16,9 +15,11 @@
   margin: auto;
   flex-wrap: wrap;
   width: 88%;
+  max-width: 900px;
   list-style: none;
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
+  padding: 30px;
 }
 
 .icons_list li {
