@@ -26,8 +26,8 @@ const About = () => {
               I have finished a degree in computer science which allowed me to lay a foundation to learn Web Development. Since I am a self-learner I have decided that learning skills in JavaScript, React, HTML and CSS by doing my own project will teach me the most by exposure. Well then just look into my portfolio and see for yourself
             </p>
           </div>
-        {/* <img
-          src="https://cdn-images-1.medium.com/max/1600/1*Ma-vB61c-MeBPbJXvUUpGw.gif" alt="" className="movingImg"/> */}
+        <img
+          src="./assets/profile.jpg" alt="" className="profilePicture"/>
         </div>
     </div>
   );
