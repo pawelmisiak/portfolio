@@ -28,3 +28,12 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 0.4em;
 }
+
+.first_section {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 30px;
+}

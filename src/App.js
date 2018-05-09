@@ -8,6 +8,7 @@ import Contact from './contact';
 
 class App extends Component {
   render() {
+
     return (
       <div className="App">
         {/* <nav className="Nav-bar f4">
