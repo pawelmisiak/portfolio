@@ -3,6 +3,7 @@
   height: auto;
   min-height: 600px;
   padding: 20px;
+  position: relative;
 }
 
 .skills_container{
