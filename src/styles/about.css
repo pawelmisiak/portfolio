@@ -1,39 +1,55 @@
 .About {
   /* background-color: #ffefe4; */
+  position: relative;
   height: auto;
   width: 100%;
   min-height: 600px;
-  padding-bottom: 50px;
-  position: relative;
-  margin: auto;
-}
-.AboutMain{
-  margin-top: 10px;
+  max-width: 1270px;
   padding-top: 50px;
   padding-bottom: 50px;
-  height: auto;
-  width: 1300px;
   margin: auto;
 }
-.profilePicture {
-  max-height: 400px;
-  width: auto;
-  border-radius: 50%;
-  margin-left: 5em;
-}
-.Paragraph{
-  margin-top: 60px;
-  min-width: 500px;
-  width: 500px;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-  font-size: 1.4em;
-}
-.ParagAndPict{
+
+.halfs{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1200px;
+  padding: 2em;
+  /* border: 1px solid red; */
+}
+
+.half {
+  width: 50%;
+  height: auto;
   margin: auto;
+  /* border: 1px solid gray; */
+  padding: 2em 4em 2em 4em;
+}
+
+.half:first-child{
+  padding-right: 0;
+  min-width: 345px;
+  /* border: 1px solid gray; */
+}
+.half:last-child{
+  display: flex;
+  justify-content: center;
+  min-width: 500px;
+  /* border: 1px solid gray; */
+}
+
+.profilePicture {
+  width: 300px;
+  height: 300px;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 50%;
+}
+.paragraph{
+  width: 100%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 1.1em;
+  padding: 0;
 }
