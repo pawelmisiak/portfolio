@@ -5,21 +5,35 @@ import About from './about';
 import Portfolio from './portfolio';
 import Skills from './skills';
 import Contact from './contact';
+import ScrollingColorBackground from 'react-scrolling-color-background';
 
 class App extends Component {
   render() {
 
     return (
       <div className="App">
+        <ScrollingColorBackground
+          selector='.js-color-stop[data-background-color]'
+          colorDataAttribute='data-background-color'
+          initialRgb='rgb(0, 0, 0)'
+        />
         {/* <nav className="Nav-bar f4">
           <Nav />
         </nav> */}
-        <div className="About">
-          <About />
-        </div>
-        <div className="Portfolio">
-          <Portfolio />
-        </div>
+        <section
+          data-background-color='rgb(32, 202, 172)'
+          className='js-color-stop'>
+          <div className="About">
+            <About />
+          </div>
+        </section>
+        <section
+          data-background-color='rgb(60, 191, 246)'
+          className='js-color-stop'>
+          <div className="Portfolio">
+            <Portfolio />
+          </div>
+        </section>
         <div className="Skills">
           <Skills />
         </div>

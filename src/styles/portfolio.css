@@ -1,9 +1,10 @@
 .Portfolio{
   /* background-color: ; */
-  background: linear-gradient(#ffefe4, #dcd0c8);
+  /* background: linear-gradient(#ffefe4, #dcd0c8); */
   height: auto;
   min-height: 600px;
-  padding: 20px
+  padding: 20px;
+  position: relative;
 }
 
 .Gifs{

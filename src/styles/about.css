@@ -1,8 +1,9 @@
 .About {
-  background-color: #ffefe4;
+  /* background-color: #ffefe4; */
   height: auto;
   width: 100%;
   padding-bottom: 50px;
+  position: relative;
 }
 .AboutMain{
   padding-top: 50px;
