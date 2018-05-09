@@ -21,7 +21,7 @@ class App extends Component {
           <Nav />
         </nav> */}
         <section
-          data-background-color='rgb(94,110,158)'
+          data-background-color='rgb(162,163,165)'
           className='js-color-stop'>
           <div className="About">
             <About />
@@ -41,7 +41,6 @@ class App extends Component {
             <Skills />
           </div>
         </section>
-        {/* rgb(94,165,80) */}
         <section
           data-background-color='rgb(241,203,108)'
           className='js-color-stop'>

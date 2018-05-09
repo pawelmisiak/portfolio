@@ -1,33 +1,24 @@
 import React from 'react';
 import './styles/about.css';
-// import Background from './pictures/background.jpg';
-//
-// const sectionStyle = {
-//   width: "100%",
-//   height: "auto",
-//   backgroundImage: `url(${Background})`,
-//   // padding: "1px",
-// }
 
 const About = () => {
   return (
     <div className="AboutMain">
-    {/* <div style={ sectionStyle } className="AboutMain"> */}
         <h3 className="h3 tc pa3 pb6">About</h3>
         <div className="ParagAndPict">
-          <div className="Paragraph">
-            <p>
-              Programming to me is an everyday challenge. It is a skill set that has to be developed and maintained in order to be the best at it. It can be fun by doing daily programming challenges or it can be productive by building something that can be limited only by our imagination.
+          <div>
+            <p className="pb3 Paragraph">
+              Programming is like a set of tools that can easily transform into toys and the workplace into playground.<br />
+              I am a NYC-based softwere developer with a background in computer science and photography. Both of those skills I find very useful in ideas and design creation.
+              I enjoy working in a team and approach problems from unusual perspectives.
             </p>
-            <p>
-              I have decided to become a developer because I did not want to feel like I am stuck doing the same thing over and over again. Software development allows me to approach problems in various different ways, explore different concepts and what is the most important - work with a team of highly motivated people that are working towards the same goal.
-            </p>
-            <p>
-              I have finished a degree in computer science which allowed me to lay a foundation to learn Web Development. Since I am a self-learner I have decided that learning skills in JavaScript, React, HTML and CSS by doing my own project will teach me the most by exposure. Well then just look into my portfolio and see for yourself
-            </p>
+            <a href="./assets/Resume.pdf" type="button" class="btn btn-outline-warning btn-lg">Resume
+            </a>
           </div>
-        <img
-          src="./assets/profile.jpg" alt="" className="profilePicture"/>
+          <div>
+            <img
+              src="./assets/profile.jpg" alt="" className="shadow-3 profilePicture"/>
+          </div>
         </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { ListGroup, ListGroupItem } from 'react-bootstrap';
 const Skills = () => {
   return (
     <div className="skills_container">
-      <h3 className="h3 tc pa3 pb6">Skills</h3>
+      <h3 className="h3 tc pa3">Skills</h3>
       <ul className="icons_list">
         <li>
           <span class="icon">
