@@ -1,9 +1,15 @@
 .App {
-  /* background-color: #FFA533; */
   height: auto;
 }
 
 .App-footer {
   font-size: large;
   background-color: white;
+}
+
+.title {
+  color: white;
+  padding-left: 4em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
 }

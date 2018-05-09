@@ -7,7 +7,7 @@
 }
 
 .skills_container{
-  display: block;
+  /* display: block; */
 }
 
 .icons_list {
@@ -29,5 +29,5 @@
 }
 
 .icon {
-  font-size: 6em;
+  font-size: 3.5em;
 }

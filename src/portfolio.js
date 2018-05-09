@@ -3,13 +3,13 @@ import './styles/portfolio.css';
 import Tilt from 'react-tilt'
 
 const Portfolio = () => {
-  const applications ={
-    faceRecognition: 'https://face-find.herokuapp.com/',
-    roboFriends: 'https://robo-friend.herokuapp.com/'
-  }
+  // const applications ={
+  //   faceRecognition: 'https://face-find.herokuapp.com/',
+  //   roboFriends: 'https://robo-friend.herokuapp.com/'
+  // }
   return (
     <div >
-      <h3 className="h3 tc pa3">Portfolio</h3>
+      <h3 className="title">Portfolio</h3>
       <div className="Gifs">
       <Tilt className="Tilt shadow-1" options={{ max : 7, reverse: true }} >
         <img src='https://media.giphy.com/media/8hZri2xwZzxDGZ8bBB/giphy.gif'/>
