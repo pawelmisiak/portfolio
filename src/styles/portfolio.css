@@ -11,10 +11,15 @@
   margin: 100px 20px;
 }
 
-.Tilt {
+.tile{
   padding: 10px;
   margin: 10px;
-  /* height: auto; */
   width: 30%;
   min-width: 300px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.Tilt{
+  margin-bottom: 3em;
 }
