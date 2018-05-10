@@ -14,6 +14,7 @@
 .Tilt {
   padding: 10px;
   margin: 10px;
-  height: auto;
-  width: auto;
+  /* height: auto; */
+  width: 30%;
+  min-width: 300px;
 }

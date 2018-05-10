@@ -43,7 +43,13 @@
   min-width: 300px;
   min-height: 300px;
   border-radius: 50%;
+
 }
+
+
+
+
+
 .paragraph{
   width: 100%;
   color: white;
@@ -51,4 +57,5 @@
   font-weight: lighter;
   font-size: 1.1em;
   padding: 0;
+  padding-bottom: 40px;
 }

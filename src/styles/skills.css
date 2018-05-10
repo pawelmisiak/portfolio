@@ -6,10 +6,6 @@
   position: relative;
 }
 
-.skills_container{
-  /* display: block; */
-}
-
 .icons_list {
   display: flex;
   justify-content: center;
