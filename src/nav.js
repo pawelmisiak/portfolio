@@ -1,23 +1,35 @@
 import React from 'react';
 import './styles/nav.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 
 const Nav = () => {
   return(
     <nav className="navbar navbar-expand navbar-dark">
       <div className="container">
-        <a className="navbar-brand " href="#page-top">Pawel Misiak</a>
-          <ul className="navbar-nav text-uppercase">
+        <AnchorLink className="navbar-brand" href='#top'>
+          Pawel Misiak
+        </AnchorLink>
+          <ul className="navbar-nav">
             <li>
-              <a className="nav-link" href="#about">About</a>
+              <AnchorLink className="nav-link" href='#about'>
+                About
+              </AnchorLink>
             </li>
             <li>
-              <a className="nav-link" href="#portfolio">Portfolio</a>
+              <AnchorLink className="nav-link" href='#portfolio'>
+                Portfolio
+              </AnchorLink>
             </li>
             <li>
-              <a className="nav-link" href="#team">Skills</a>
+              <AnchorLink className="nav-link" href='#skills'>
+                Skills
+              </AnchorLink>
             </li>
             <li>
-              <a className="nav-link" href="#contact">Contact</a>
+              <AnchorLink className="nav-link" href='#contact'>
+                Contact
+              </AnchorLink>
             </li>
           </ul>
       </div>

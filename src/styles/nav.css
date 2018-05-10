@@ -1,5 +1,6 @@
-
-.Nav-bar {
+.navbar {
+  display: block;
+  position: static;
   text-align: center;
   background-color: black;
   height: 60px;

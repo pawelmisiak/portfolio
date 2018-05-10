@@ -7,7 +7,7 @@ const Contact = () => {
       <h3 className="title">Contact</h3>
 
       <div className="first_section">
-        <p className="tc">Want to get in touch?</p>
+        <p className="tc pb4">Want to get in touch?</p>
         <a href="mailto:thepawelmisiak@gmail.com" className="btn btn-outline-dark">Email Me
         </a>
       </div>

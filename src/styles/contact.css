@@ -36,5 +36,8 @@
   max-width: 200px;
   justify-content: center;
   margin: auto;
-  padding-bottom: 30px;
+  padding: 40px 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
 }
