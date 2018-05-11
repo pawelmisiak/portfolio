@@ -1,8 +1,4 @@
-.navbar {
-  /* display: block; */
-  /* position: static; */
-  /* text-align: center; */
-  background-color: black;
-  height: 60px;
-  /* color: white; */
+.my-nav {
+  display: flex;
+  justify-content: space-around;
 }

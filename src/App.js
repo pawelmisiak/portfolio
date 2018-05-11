@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles/App.css';
-import Nav from './nav';
+import Navigation from './nav';
 import About from './about';
 import Portfolio from './portfolio';
 import Skills from './skills';
@@ -20,25 +20,12 @@ class App extends Component {
           colorDataAttribute='data-background-color'
           initialRgb='rgb(0, 0, 0)'
         />
-        <StickyContainer>
-          <Sticky>
-            {
-              ({
-                style={ position: 'absolute', zIndex: 1 },
-              }) => {
-                return (
-                  <nav className="Nav-bar f4" style={style}>
-                    <Nav />
-                  </nav>
-                )
-              }
-            }
-          </Sticky>
+          <nav className="Nav-bar pa3">
+            <Navigation />
+          </nav>
           <section
             data-background-color='rgb(162,163,165)'
-            className='js-color-stop'
-            style="position: absolute">
-
+            className='js-color-stop'>
             <div className="About" id="about">
               <About />
             </div>
@@ -68,7 +55,6 @@ class App extends Component {
             </div>
             <p className="App-footer"></p>
           </section>
-        </StickyContainer>
       </div>
     );
   }
