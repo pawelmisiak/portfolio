@@ -1,5 +1,7 @@
 .App {
   height: auto;
+  position: absolute;
+  z-index: 0;
 }
 
 .App-footer {
@@ -14,10 +16,6 @@
   border-bottom: 2px solid white;
 }
 
-.nav_sticky {
-  z-index: 0;
-}
-
-.About {
+/* .nav_sticky {
   z-index: 1;
-}
+} */

@@ -13,66 +13,62 @@ class App extends Component {
   render() {
     return (
       <div className="App" id="top">
+
         {/* makes the background change colors while scrolling */}
         <ScrollingColorBackground
           selector='.js-color-stop[data-background-color]'
           colorDataAttribute='data-background-color'
           initialRgb='rgb(0, 0, 0)'
         />
-
-        <StickyContainer className="sticky">
-        <Sticky className="stk">
-          {
-            ({
-              style,
-            }) => {
-              return (
-                <header Classname="nav_sticky" style={style}>
-                  <nav className="Nav-bar f4">
+        <StickyContainer>
+          <Sticky>
+            {
+              ({
+                style={ position: 'absolute', zIndex: 1 },
+              }) => {
+                return (
+                  <nav className="Nav-bar f4" style={style}>
                     <Nav />
                   </nav>
-                </header>
-              )
+                )
+              }
             }
-          }
-        </Sticky>
-        <section
-          data-background-color='rgb(162,163,165)'
-          className='js-color-stop'>
-          <div className="About" id="about">
-            <About />
-          </div>
-        </section>
+          </Sticky>
+          <section
+            data-background-color='rgb(162,163,165)'
+            className='js-color-stop'
+            style="position: absolute">
 
-        <section
-          data-background-color='rgb(139,212,241)'
-          className='js-color-stop'>
-          <div className="Portfolio" id="portfolio">
-            <Portfolio />
-          </div>
-        </section>
+            <div className="About" id="about">
+              <About />
+            </div>
+          </section>
 
-        <section
-          data-background-color='rgb(139,224,122)'
-          className='js-color-stop'>
-          <div className="Skills" id="skills">
-            <Skills />
-          </div>
-        </section>
+          <section
+            data-background-color='rgb(139,212,241)'
+            className='js-color-stop'>
+            <div className="Portfolio" id="portfolio">
+              <Portfolio />
+            </div>
+          </section>
 
-        <section
-          data-background-color='rgb(241,203,108)'
-          className='js-color-stop'>
-          <div className="Contact" id="contact">
-            <Contact />
-          </div>
-        </section>
-      </StickyContainer>
+          <section
+            data-background-color='rgb(139,224,122)'
+            className='js-color-stop'>
+            <div className="Skills" id="skills">
+              <Skills />
+            </div>
+          </section>
 
-
-
-        <p className="App-footer">
-        </p>
+          <section
+            data-background-color='rgb(241,203,108)'
+            className='js-color-stop'>
+            <div className="Contact" id="contact">
+              <Contact />
+            </div>
+            <p className="App-footer"></p>
+          </section>
+        </StickyContainer>
       </div>
     );
   }
