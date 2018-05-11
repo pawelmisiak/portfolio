@@ -6,22 +6,36 @@ import Portfolio from './portfolio';
 import Skills from './skills';
 import Contact from './contact';
 import ScrollingColorBackground from 'react-scrolling-color-background';
+import { StickyContainer, Sticky } from 'react-sticky';
 
 
 class App extends Component {
   render() {
-
     return (
       <div className="App" id="top">
+        {/* makes the background change colors while scrolling */}
         <ScrollingColorBackground
           selector='.js-color-stop[data-background-color]'
           colorDataAttribute='data-background-color'
           initialRgb='rgb(0, 0, 0)'
         />
-        <nav className="Nav-bar f4">
-          <Nav />
-        </nav>
 
+        <StickyContainer className="sticky">
+        <Sticky className="stk">
+          {
+            ({
+              style,
+            }) => {
+              return (
+                <header Classname="nav_sticky" style={style}>
+                  <nav className="Nav-bar f4">
+                    <Nav />
+                  </nav>
+                </header>
+              )
+            }
+          }
+        </Sticky>
         <section
           data-background-color='rgb(162,163,165)'
           className='js-color-stop'>
@@ -53,6 +67,9 @@ class App extends Component {
             <Contact />
           </div>
         </section>
+      </StickyContainer>
+
+
 
         <p className="App-footer">
         </p>
