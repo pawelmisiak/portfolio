@@ -25,7 +25,7 @@ const Portfolio = () => {
         </div>
         <div className="tile">
           <Tilt className="Tilt shadow-1" options={{ max : 7, reverse: true }} >
-            <a href="https://face-find.herokuapp.com/"><img src="./assets/project2.gif" title="made at imgflip.com" alt=""/></a>
+            <img src="./assets/project2.gif" title="made at imgflip.com" alt=""/>
           </Tilt>
           <div className="linkButtons">
             <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">LIVE </a>
@@ -36,7 +36,7 @@ const Portfolio = () => {
         </div>
         <div className="tile">
           <Tilt className="Tilt shadow-1" options={{ max : 7, reverse: true }} >
-            <a href="https://robo-friend.herokuapp.com/"><img src='./assets/project3.gif' alt=""/></a>
+            <img src='./assets/project3.gif' alt=""/>
           </Tilt>
           <div className="linkButtons">
             <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">LIVE </a>
