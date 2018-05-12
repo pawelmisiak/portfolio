@@ -13,8 +13,9 @@ const About = () => {
               I am a NYC-based softwere developer with a background in computer science and photography. Both of those skills I find very useful in ideas and design creation.
               I enjoy working in a team and approach problems from unusual perspectives.
             </p>
-            <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">Resume
-            </a>
+            <div className="tc">
+              <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">Resume </a>
+            </div>
           </div>
           <div className="half">
             <img
