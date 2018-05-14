@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/nav.css';
 // provides smooth scrollin when button is pressed
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-// import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
+
 
 const Navigation = () => {
   return(

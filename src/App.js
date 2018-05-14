@@ -6,7 +6,6 @@ import Portfolio from './portfolio';
 import Skills from './skills';
 import Contact from './contact';
 import ScrollingColorBackground from 'react-scrolling-color-background';
-// import { StickyContainer, Sticky } from 'react-sticky';
 
 
 class App extends Component {

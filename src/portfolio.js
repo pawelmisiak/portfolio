@@ -3,10 +3,7 @@ import './styles/portfolio.css';
 import Tilt from 'react-tilt'
 
 const Portfolio = () => {
-  // const applications ={
-  //   faceRecognition: 'https://face-find.herokuapp.com/',
-  //   roboFriends: 'https://robo-friend.herokuapp.com/'
-  // }
+
   return (
     <div >
       <h3 className="title">Portfolio</h3>
@@ -16,8 +13,7 @@ const Portfolio = () => {
             <img src='./assets/project1.gif' alt=""/>
           </Tilt>
           <div className="linkButtons">
-            <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">LIVE </a>
-            <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">GITHUB </a>
+            <a href="https://github.com/pawelmisiak/youtube_like_app" className="btn btn-outline-dark btn-lg">GITHUB </a>
           </div>
           <h5 className="pb3">Youtube-like app</h5>
           <p>Re-creation of youtube.com that dynamically
@@ -28,8 +24,8 @@ const Portfolio = () => {
             <img src="./assets/project2.gif" title="made at imgflip.com" alt=""/>
           </Tilt>
           <div className="linkButtons">
-            <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">LIVE </a>
-            <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">GITHUB </a>
+            <a href="https://face-find.herokuapp.com/" className="btn btn-outline-dark btn-lg">LIVE </a>
+            <a href="https://github.com/pawelmisiak/face-detection-frontend" className="btn btn-outline-dark btn-lg">GITHUB </a>
           </div>
           <h5 className="pb3">Face Find</h5>
           <p>The app uses external API, designated database, log in/out functionality and interesting dynamic background</p>
@@ -39,8 +35,8 @@ const Portfolio = () => {
             <img src='./assets/project3.gif' alt=""/>
           </Tilt>
           <div className="linkButtons">
-            <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">LIVE </a>
-            <a href="./assets/Resume.pdf" className="btn btn-outline-warning btn-lg">GITHUB </a>
+            <a href="https://robo-friend.herokuapp.com/" className="btn btn-outline-dark btn-lg">LIVE </a>
+            <a href="https://github.com/pawelmisiak/robots-dynamic-search" className="btn btn-outline-dark btn-lg">GITHUB </a>
           </div>
           <h5 className="pb3">Robo Friends</h5>
           <p>It allows quickly search through the database based on the name</p>
