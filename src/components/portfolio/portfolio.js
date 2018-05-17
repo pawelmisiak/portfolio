@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/portfolio.css';
+import './portfolio.css';
 import Tilt from 'react-tilt'
 import { Projects } from './portfolioList';
 

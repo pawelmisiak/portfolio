@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './styles/App.css';
-import Navigation from './nav';
-import About from './about';
-import Portfolio from './portfolio';
-import Skills from './skills';
-import Contact from './contact';
+import Navigation from './components/nav/nav';
+import About from './components/about/about';
+import Portfolio from './components/portfolio/portfolio';
+import Skills from './components/skills/skills';
+import Contact from './components/contact/contact';
 import ScrollingColorBackground from 'react-scrolling-color-background';
-
 
 class App extends Component {
   render() {

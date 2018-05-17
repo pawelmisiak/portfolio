@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/skills.css';
-import {skills} from './skillList';
+import './skills.css';
+import { skills } from './skillList';
 
 const Skills = () => {
 

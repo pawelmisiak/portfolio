@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/nav.css';
+import './nav.css';
 // provides smooth scrollin when button is pressed
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
