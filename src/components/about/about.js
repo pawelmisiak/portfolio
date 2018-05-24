@@ -9,8 +9,8 @@ const About = () => {
         <div className="halfs">
           <div className="half">
             <p className="paragraph">
-              Programming is like a set of tools that can easily transform into toys and the workplace into playground.<br/><br/>
-              I am a NYC-based softwere developer with a background in computer science and photography. Both of those skills I find very useful in ideas and design creation.
+              Programming is like a set of tools that can easily transform into toys and the workplace into a playground.<br/><br/>
+              I am an NYC-based software developer with a background in computer science and photography. Both of those skills I find very useful in ideas and design creation.
               I enjoy working in a team and approach problems from unusual perspectives.
             </p>
             <div className="tc">

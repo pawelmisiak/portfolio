@@ -21,6 +21,6 @@ export const Projects = [
     title: 'Youtube-like app',
     description: `Re-creation of youtube.com that dynamically
       searches for relevant videos using youtube's API.
-      The app is build uppon React and Redux what makes it very snappy`,
+      The app is built uppon React and Redux what makes it very snappy`,
   },
 ]
