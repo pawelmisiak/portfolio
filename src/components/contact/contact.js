@@ -9,6 +9,7 @@ const Contact = () => {
       <div className="first_section">
         <p className="tc pb4">Want to get in touch?</p>
         <a
+          target="_blank"
           href="mailto:thepawelmisiak@gmail.com"
           className="btn btn-outline-dark"
         >
